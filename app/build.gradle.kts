@@ -61,10 +61,18 @@ dependencies {
 
     implementation(libs.hilt.navigation.compose)
     implementation(libs.hilt.android)
+    implementation(libs.androidx.material3)
     ksp(libs.hilt.compiler)
+    ksp(libs.moshi.codegen)
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.lifecycle.viewmodel.compose)
+
+    implementation(libs.retrofit.core)
+    implementation(libs.retrofit.moshi)
+
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.ui)

@@ -62,6 +62,7 @@ dependencies {
     implementation(libs.hilt.navigation.compose)
     implementation(libs.hilt.android)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.room.ktx)
     ksp(libs.hilt.compiler)
     ksp(libs.moshi.codegen)
 

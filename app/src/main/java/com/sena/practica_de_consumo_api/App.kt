@@ -19,13 +19,15 @@ fun App() {
             )
         }
     ) { innerPadding ->
-        UserScreen(
+        UserScreen( // pokemonscreen
             modifier = Modifier
                 .padding(innerPadding)
         )
     }
 }
 
+
+/// Quitar
 @Composable
 fun UserScreen(modifier: Modifier = Modifier) {
             Text(text = "Pokemon", modifier = modifier)
